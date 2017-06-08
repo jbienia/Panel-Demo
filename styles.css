@@ -1,0 +1,59 @@
+.square{
+  width: 100%;
+    height: 100%;
+    border: 1px;
+    border-style: solid;
+    margin: 20px;
+    transition: 3s;
+    transform: rotateY(var(--spin));
+}
+body{
+  background-color: currentColor;
+}
+
+.square1{
+  background: url(http://www.planwallpaper.com/static/images/Nature-Wallpapers-6.jpg);
+}
+
+.square2{
+  background: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/nature-wallpapers-10.jpg);
+}
+
+.square3{
+  background: url(https://www.planwallpaper.com/static/images/colorful-nature-wallpaper.jpg);
+}
+
+.square4{
+  background: url(http://www.aurangabad.nic.in/newsite1/images/natural-mirror-statspic.jpg);
+}
+
+.square5{
+  background: url(http://www.intrawallpaper.com/static/images/1249912-nature-wallpapers-for-desktop.jpg);
+}
+
+.square > *:first-child{
+  transform: none;
+}
+
+p{
+  font-size: var(--fontSize);
+  text-align: center;
+  transition: 2s;
+  transform: none;
+  display: inline;
+  margin: 72px;
+
+}
+
+.changeMargin{
+  margin: var(--margin);
+  font-weight: bold;
+  color: red;
+}
+
+.holder{
+
+  display: inline-block;
+    height: 1000px;
+    width: 372px;
+}
